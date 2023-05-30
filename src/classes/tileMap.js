@@ -1,9 +1,13 @@
 
 export default class TileMap {
     constructor() {
+      // defines size of map/ how many tiles
       this.columns = 24;
       this.rows = 24;
       this.tileSize = 64;
+      // Array representing the first layer of the map
+      // Each number represents a tile type or ID
+      // The number 1 represents a certain type of tile, the number 2 another type, and so on
       this.layers = [[
         3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
         3, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 3, 3, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 3,
